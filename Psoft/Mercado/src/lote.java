@@ -2,10 +2,10 @@ import java.util.Date;
 
 public class lote {
     private int Quant;
-    private Date Validade;
+    private String Validade;
     private produto Prod;
 
-    public lote(int quant, Date validade, produto prod) {
+    public lote(int quant, String validade, produto prod) {
         Quant = quant;
         Validade = validade;
         Prod = prod;
